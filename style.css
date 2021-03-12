@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Poppins-Black";
+    src:url(/_fonts/Poppins-Black.ttf)
+}
+
+
+@font-face{
+    font-family: "Poppins-BlackItalic";
+    src:url(/_fonts/Poppins-BlackItalic.ttf)
+}
+
+
+@font-face{
+    font-family: "Poppins-Bold";
+    src:url(/_fonts/Poppins-Bold.ttf)
+}
+
+
+@font-face{
+    font-family: "Poppins-BoldItalic";
+    src:url(/_fonts/Poppins-BoldItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-ExtraBold";
+    src:url(/_fonts/Poppins-ExtraBold.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-ExtraBoldItalic";
+    src:url(/_fonts/Poppins-ExtraBoldItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-ExtraLight";
+    src:url(/_fonts/Poppins-ExtraLight.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-ExtraLightItalic";
+    src:url(/_fonts/Poppins-ExtraLightItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-Italic";
+    src:url(/_fonts/Poppins-Italic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-Light";
+    src:url(/_fonts/Poppins-Light.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-LightItalic";
+    src:url(/_fonts/Poppins-LightItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-Medium";
+    src:url(/_fonts/Poppins-Medium.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-MediumItalic";
+    src:url(/_fonts/Poppins-MediumItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-Regular";
+    src:url(/_fonts/Poppins-Regular.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-SemiBold";
+    src:url(/_fonts/Poppins-SemiBold.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-SemiBoldItalic";
+    src:url(/_fonts/Poppins-SemiBoldItalic.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-Thin";
+    src:url(/_fonts/Poppins-Thin.ttf)
+}
+
+@font-face{
+    font-family: "Poppins-ThinItalic";
+    src:url(/_fonts/Poppins-ThinItalic.ttf)
+}
+
+.banner-section{
+    height: 100vh;
+    background:url(/assets/backgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-section h1{
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 7em;
+    width: 60vw;
+    color: #fff;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins-SemiBold, sans-serif;
+    font-size: 2em;
+    
+    color: rgb(58, 58, 58);
+    background-color: white;
+    
+    height: 6vh;
+    width: 18vw;
+    
+    margin-top: 2em;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2em 10em;
+}
+
+.categories h2, .growth-plans h2{
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 5em;
+    color: #383838;
+}
+
+.categories p{
+    font-family: Popping-SemiBold,sans-serif;
+    color: rgb(58, 58, 58);
+    font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+    margin-top: 3.5rem;
+}
+
+.row div{
+    margin:0.5em 2em;
+
+    height: 40vh;
+}
+
+.row h3{
+    font-family:Poppins-Regular, sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+.row p{
+    font-family:Poppins-light, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+.nature-div{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+
+    background: url(assets/natureBg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.5rem;
+    
+}
+
+.daily-div{
+    flex: 2;
+    
+    display: flex;
+    flex-direction: column;
+
+    background: url(assets/dailyBg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.5rem;
+}
+
+.together-div{
+    flex: 2;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url(assets/togetherBg.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 1.5rem;
+}
+
+.analysis-div{
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    background: url(assets/analysisBg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.5rem;
+    
+}
+
+.pictures-div{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+    background: url(assets/picturesBg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.5rem;
+    
+}
+
+.growth-plans{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3em;
+    padding: 2em 10em;
+    background-color: #f3f3f3;
+}
+
+.growth-plans h3{
+    font-family:Poppins-Light, sans-serif;
+    font-size: 3em;
+    color:#383838;
+    
+    
+}
+
+.growth-plans #sub{
+    font-family: Poppins-SemiBold, sans-serif;
+    font-size: 1.5em;
+    color:#383838;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2em;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    color: white;
+    
+}
+
+.plan div:first-child{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #005399;
+    padding: 1.5rem;
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 2.5em;
+}
+
+.plan div:last-child{
+    background-color: #0087ec;
+    padding: 1.5rem;
+
+    display: flex;
+    align-items: flex-end;
+    font-family: Poppins-Thin;
+    font-size: 0.85em;
+}
+
+
